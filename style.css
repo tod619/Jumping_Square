@@ -24,5 +24,30 @@ html {
   background-color: #1f5050;
   border-radius: 5rem;
   box-shadow: 2rem 2rem 6rem #888;
+  position: relative;
+}
+
+.wrapper div {
+  position: absolute;
 }
 /* End: Common Styles */
+
+/* Start: Sticks */
+.stick {
+  width: 3rem;
+  height: 40rem;
+  background-color: coral;
+  border-radius: 1rem 1rem 0 0;
+  bottom: 0;
+}
+
+.left-stick {
+  left: 15rem;
+  box-shadow: 0.2rem 0 0.5rem #555;
+}
+
+.right-stick {
+  right: 15rem;
+  box-shadow: -0.2rem 0 0.5rem #555;
+}
+/* End: Sticks */
