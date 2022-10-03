@@ -63,3 +63,14 @@ html {
   box-shadow: 0 1rem 0 #ddd;
 }
 /* End: Rubber */
+
+/* Start: Square */
+.square {
+  width: 14rem;
+  aspect-ratio: 1;
+  background-color: #fff;
+  border-radius: 2rem;
+  left: 44rem;
+  box-shadow: 0 0 0.2rem #555;
+}
+/* End: Square */
